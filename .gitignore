@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DuckDB database
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+
+# dbt
+target/
+dbt_packages/
+logs/
+.partial_parse.msgpack
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+*.sqlite
+*.sqlite3
